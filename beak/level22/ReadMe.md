@@ -1,1 +1,1 @@
-# BeakJoon Level 21 Brute Force
+# BeakJoon Level 22 Brute Force
