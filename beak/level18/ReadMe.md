@@ -1,1 +1,1 @@
-# BeakJoon Level 17 LCM/GCD
+# BeakJoon Level 18 LCM/GCD
