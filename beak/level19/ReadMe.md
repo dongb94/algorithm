@@ -1,1 +1,1 @@
-# BeakJoon Level 20 DivideAndConquer
+# BeakJoon Level 18 Simulation

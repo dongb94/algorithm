@@ -1,1 +1,1 @@
-# BeakJoon Level 20 Math
+# BeakJoon Level 20 DivideAndConquer

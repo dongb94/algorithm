@@ -1,1 +1,1 @@
-# BeakJoon Level 21 Brute Force
+# BeakJoon Level 20 Math

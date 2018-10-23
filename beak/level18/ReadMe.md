@@ -1,1 +1,1 @@
-# BeakJoon Level 18 Simulation
+# BeakJoon Level 17 LCM/GCD
