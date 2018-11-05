@@ -1,1 +1,1 @@
-# BeakJoon level 6 One Dimentional Array
+# BeakJoon level 6 One Dimensional Array
