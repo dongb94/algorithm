@@ -1,3 +1,4 @@
+// LinkedList.h
 #include <iostream>
 
 struct node {
@@ -14,7 +15,7 @@ public:
 		tail = NULL;
 	}
 
-	void add_node(int n) {
+	node* add_node(int n) {
 		node *temp = new node;
 		temp->data = n;
 		temp->next = NULL;
@@ -26,9 +27,45 @@ public:
 			tail->next = temp;
 			tail = tail->next;
 		}
+
+		return temp;
+	}
+
+	void addFirst(int x) {
+		node *temp = new node();
+		temp->data = x;
+		temp->next = head;
+		head = temp;
+		if (tail == NULL) tail = temp;
+	}
+
+	void addFirst(node *node) {
+		node->next = head;
+		head = node;
+		if (tail == NULL) tail = node;
+	}
+
+	int removeFirst() {
+		int data = head->data;
+		head = head->next;
+		return data;
 	}
 
 	node* first() {
 		return head;
 	}
+
+	void printLinkedList() {
+		if (head == NULL) return;
+
+		node* currentNode = head;
+		while (currentNode->next != NULL) {
+			printf("%d - ", currentNode->data);
+			currentNode = currentNode->next;
+		}
+		printf("%d", currentNode->data);
+
+		printf("\n");
+	}
 };
+
