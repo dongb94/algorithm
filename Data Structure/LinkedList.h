@@ -37,17 +37,22 @@ public:
 		temp->next = head;
 		head = temp;
 		if (tail == NULL) tail = temp;
+
 	}
 
 	void addFirst(node *node) {
 		node->next = head;
 		head = node;
 		if (tail == NULL) tail = node;
+
 	}
 
 	int removeFirst() {
+		if(head == NULL) return NULL;
+
 		int data = head->data;
 		head = head->next;
+
 		return data;
 	}
 
