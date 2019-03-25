@@ -1,22 +1,24 @@
 // LinkedList.h
 #include <iostream>
 
+template <class T>
 struct node {
-	int data;
+	T data;
 	node *next;
 };
 
-class linked_list {
+template <class T>
+class linked_list{
 private:
-	node *head, *tail;
+	node<T> *head, *tail;
 public:
 	linked_list() {
 		head = NULL;
 		tail = NULL;
 	}
 
-	node* add_node(int n) {
-		node *temp = new node;
+	node<T>* add_node(T n) {
+		node<T> *temp = new node<T>;
 		temp->data = n;
 		temp->next = NULL;
 		if (head == NULL) {
@@ -31,8 +33,8 @@ public:
 		return temp;
 	}
 
-	void addFirst(int x) {
-		node *temp = new node();
+	void addFirst(T x) {
+		node<T> *temp = new node<T>;
 		temp->data = x;
 		temp->next = head;
 		head = temp;
@@ -40,7 +42,7 @@ public:
 
 	}
 
-	void addFirst(node *node) {
+	void addFirst(node<T> *node) {
 		node->next = head;
 		head = node;
 		if (tail == NULL) tail = node;
@@ -56,7 +58,7 @@ public:
 		return data;
 	}
 
-	node* first() {
+	node<T>* first() {
 		return head;
 	}
 
