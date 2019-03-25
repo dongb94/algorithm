@@ -1,7 +1,7 @@
 #include <iostream>
 #include "LinkedList.h"
 
-bool IsPermutation(linked_list<char> list) {
+bool IsPalindrome(linked_list<char> list) {
 	int length = 0;
 	char *buffer;
 	node<char> *pt = list.first();
@@ -40,5 +40,5 @@ int main() {
 	list.add_node('b');
 	list.add_node('a');
 
-	printf("%d\n", IsPermutation(list));
+	printf("%d\n", IsPalindrome(list));
 }
