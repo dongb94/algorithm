@@ -31,12 +31,6 @@ void arraySort(int *arr, int start, int end) {
 		*ep = temp;
 	}
 
-	for (int i = 0; i < 21; i++) {
-		if (i == pp) printf("*");
-		printf("%d-", arr[i]);
-	}
-	printf("\n");
-
 	if(pp==start) arraySort(arr, pp + 1, end);
 	else {
 		arraySort(arr, start, pp - 1);
@@ -51,7 +45,7 @@ int main() {
 
 	for (int i = 0; i < T; i++) {
 		scanf("%d %d", &N, &P);
-		int leastCoach = 9999999;
+		int leastCoach = -1;
 		int *coach = new int[N];
 		int *skill = new int[N];
 		for (int j = 0; j < N; j++) {
@@ -67,9 +61,9 @@ int main() {
 			for (int k = 0; k < P - 1; k++) {
 				sum += coach[j - k] * (P - k - 1);
 			}
-			if (sum < leastCoach) leastCoach = sum;
+			if (sum < leastCoach || leastCoach == -1) leastCoach = sum;
 		}
 
-		printf("%d\n", leastCoach);
+		printf("Case #%d: %d\n",i+1, leastCoach);
 	}
 }
