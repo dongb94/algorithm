@@ -13,7 +13,7 @@ node<T> FindLoop(linked_list<T> list) {
 	//std::hash_set<node<T>*> set;
 	std::unordered_set<node<T>*> set;
 	while (1) {
-		if (set.find(itr) != -1) return *itr;
+		if (set.find(itr) != set.end()) return *itr;
 
 		set.insert(itr);
 		itr = itr->next;
