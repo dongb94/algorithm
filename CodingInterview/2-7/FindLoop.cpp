@@ -1,19 +1,15 @@
 #include <iostream>
-#include <hash_set>
 #include <unordered_set>
 #include "LinkedList.h"
 
-#define _SILENCE_STDEXT_HASH_DEPRECATION_WARNINGS;
-
 template <class T>
-node<T> FindLoop(linked_list<T> list) {
+node<T>* FindLoop(linked_list<T> list) {
 
 	node<T> *itr = list.first();
 
-	//std::hash_set<node<T>*> set;
 	std::unordered_set<node<T>*> set;
 	while (1) {
-		if (set.find(itr) != set.end()) return *itr;
+		if (set.find(itr) != set.end()) return itr;
 
 		set.insert(itr);
 		itr = itr->next;
@@ -33,6 +29,7 @@ int main() {
 	node<int> *looping = list.add_node(3);
 	looping->next = looped;
 
-
-	printf("%c\n", FindLoop(list).data);
+	node<int> *loopNode =  FindLoop(list);
+	if (loopNode == NULL) printf("No Loop\n");
+	else printf("%d\n", loopNode->data);
 }
