@@ -42,12 +42,16 @@ public:
 		return start[nOfE];
 	}
 
-	T top() {
+	T peak() {
 		if (nOfE == 0) return NULL;
 		return start[nOfE - 1];
 	}
 
 	int Size() {
 		return nOfE;
+	}
+
+	bool isEmpty() {
+		return nOfE == 0;
 	}
 };
