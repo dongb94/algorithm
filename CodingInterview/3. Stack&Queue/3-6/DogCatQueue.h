@@ -19,7 +19,7 @@ class DogCatQueue{
 private:
 	std::queue<Dog> dogQueue;
 	std::queue<Cat> catQueue;
-	std::queue<Animal> indexQueue;
+	std::queue<bool> indexQueue;
 	int catCnt;
 	int dogCnt;
 public:
@@ -30,21 +30,21 @@ public:
 
 	void enqueue(Cat type) {
 		catQueue.push(type);
-		indexQueue.push(type);
+		indexQueue.push(false);
 	}
 
 	void enqueue(Dog type) {
 		dogQueue.push(type);
-		indexQueue.push(type);
+		indexQueue.push(true);
 	}
 
 	Animal dequeueAny() {
-		Animal out = indexQueue.front();
+		bool out = indexQueue.front();
 
-		if (typeid(out) == typeid(Cat)) {
-			return dequeueCat();
-		}else if (typeid(out) == typeid(Cat)) {
+		if (out) {
 			return dequeueDog();
+		} else {
+			return dequeueCat();
 		}
 		return out;
 	}
@@ -53,12 +53,12 @@ public:
 		Cat out = catQueue.front();
 		catQueue.pop();
 
-		if (typeid(indexQueue.front()) == typeid(Cat))
+		if (!indexQueue.front())
 			indexQueue.pop();
 		else
 			catCnt++;
 
-		while (dogCnt != 0 && typeid(indexQueue.front()) == typeid(Dog)) {
+		while (dogCnt != 0 && indexQueue.front()) {
 			indexQueue.pop();
 			dogCnt--;
 		}
@@ -70,12 +70,12 @@ public:
 		Dog out = dogQueue.front();
 		dogQueue.pop();
 
-		if (typeid(indexQueue.front()) == typeid(Dog))
+		if (indexQueue.front())
 			indexQueue.pop();
 		else
 			dogCnt++;
 
-		while (catCnt != 0 && typeid(indexQueue.front()) == typeid(Cat)) {
+		while (catCnt != 0 && !indexQueue.front()) {
 			indexQueue.pop();
 			catCnt--;
 		}
