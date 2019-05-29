@@ -2,10 +2,10 @@
 #include "Node.h"
 
 int checkBalanced(TreeNode<int>* top) {
-	int left = top->left == NULL ? 0 : checkBalanced(top->left) + 1;
-	int right = top->right == NULL ? 0 : checkBalanced(top->right) + 1;
+	int left = top->left == NULL ? 1 : checkBalanced(top->left) + 1;
+	int right = top->right == NULL ? 1 : checkBalanced(top->right) + 1;
 
-	if (abs(left - right) > 1) return -1;
+	if (left==0 || right == 0 || abs(left - right) > 1) return -1;
 	else return left < right ? right : left;
 }
 
