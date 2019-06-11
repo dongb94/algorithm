@@ -10,6 +10,16 @@ public:
 	TreeNode(T data) {
 		this->data = data;
 	}
+	
+	void addLeft(TreeNode<T>* left) {
+		this->left = left;
+		left->parent = this;
+	}
+
+	void addRight(TreeNode<T>* right) {
+		this->right = right;
+		right->parent = this;
+	}
 };
 
 template <class T>
