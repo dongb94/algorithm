@@ -10,15 +10,25 @@ public:
 	TreeNode(T data) {
 		this->data = data;
 	}
-	
+
 	void addLeft(TreeNode<T>* left) {
 		this->left = left;
 		left->parent = this;
 	}
 
+	void addLeft(T data) {
+		TreeNode<T> *left = new TreeNode<T>(data);
+		addLeft(left);
+	}
+
 	void addRight(TreeNode<T>* right) {
 		this->right = right;
 		right->parent = this;
+	}
+
+	void addRight(T data) {
+		TreeNode<T> *right = new TreeNode<T>(data);
+		addRight(right);
 	}
 };
 
