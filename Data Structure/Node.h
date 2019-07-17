@@ -30,6 +30,14 @@ public:
 		TreeNode<T> *right = new TreeNode<T>(data);
 		addRight(right);
 	}
+
+	void remove() {
+		if (parent->left == this)
+			parent->left == NULL;
+		else if (parent->right == this)
+			parent->right == NULL;
+		parent == NULL;
+	}
 };
 
 template <class T>
