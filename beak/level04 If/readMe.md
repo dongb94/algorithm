@@ -1,5 +1,5 @@
 # BeakJoon level 4 If
 
-Total Question : 6
+Total Question : 5
 
-Solve Question : 1
+Solve Question : 3
