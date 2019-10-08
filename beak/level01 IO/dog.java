@@ -1,4 +1,4 @@
-package 백준1단계_입출력;
+//https://www.acmicpc.net/problem/10172
 import java.io.*;
 public class dog {
 

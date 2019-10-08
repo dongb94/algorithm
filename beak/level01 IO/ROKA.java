@@ -1,11 +1,11 @@
-package πÈ¡ÿ1¥‹∞Ë_¿‘√‚∑¬;
+//https://www.acmicpc.net/problem/10718
 
 import java.io.*;
 public class ROKA {
 
 	public static void main(String[] args) throws IOException{
 		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
-		for(int i=0; i<2; i++) bw.write("∞≠«—ƒ£±∏ ¥Î«—¿∞±∫\n");
+		for(int i=0; i<2; i++) bw.write("Í∞ïÌïúÏπúÍµ¨ ÎåÄÌïúÏú°Íµ∞\n");
 		bw.flush();
 
 	}

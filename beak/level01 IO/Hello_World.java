@@ -1,4 +1,4 @@
-package 백준1단계_입출력;
+// https://www.acmicpc.net/problem/2557
 
 import java.io.*;
 
