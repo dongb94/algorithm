@@ -1,6 +1,6 @@
 package beakJoon_Level02_ArithmeticOperation;
 /* Q
- * µÎ ÀÚ¿¬¼ö A¿Í B°¡ ÁÖ¾îÁø´Ù. ÀÌ¶§, A+B, A-B, A*B, A/B(¸ò), A%B(³ª¸ÓÁö)¸¦ Ãâ·ÂÇÏ´Â ÇÁ·Î±×·¥À» ÀÛ¼ºÇÏ½Ã¿À. 
+ * ë‘ ìì—°ìˆ˜ Aì™€ Bê°€ ì£¼ì–´ì§„ë‹¤. ì´ë•Œ, A+B, A-B, A*B, A/B(ëª«), A%B(ë‚˜ë¨¸ì§€)ë¥¼ ì¶œë ¥í•˜ëŠ” í”„ë¡œê·¸ë¨ì„ ì‘ì„±í•˜ì‹œì˜¤. 
  */
 import java.io.*;
 import java.util.StringTokenizer;

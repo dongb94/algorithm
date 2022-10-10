@@ -1,4 +1,4 @@
-// ¹®Á¦ ¹øÈ£ : 5622
+// ë¬¸ì œ ë²ˆí˜¸ : 5622
 // https://www.acmicpc.net/problem/5622
 #include <iostream>
 

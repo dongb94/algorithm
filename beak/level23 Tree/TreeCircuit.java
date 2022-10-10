@@ -1,6 +1,6 @@
 package beakJoon_Level23_Tree;
 /* Q
- * ÀÌÁø Æ®¸®¸¦ ÀÔ·Â¹Ş¾Æ ÀüÀ§ ¼øÈ¸(preorder traversal), ÁßÀ§ ¼øÈ¸(inorder traversal), ÈÄÀ§ ¼øÈ¸(postorder traversal)ÇÑ °á°ú¸¦ Ãâ·ÂÇÏ´Â ÇÁ·Î±×·¥À» ÀÛ¼ºÇÏ½Ã¿À.
+ * ì´ì§„ íŠ¸ë¦¬ë¥¼ ì…ë ¥ë°›ì•„ ì „ìœ„ ìˆœíšŒ(preorder traversal), ì¤‘ìœ„ ìˆœíšŒ(inorder traversal), í›„ìœ„ ìˆœíšŒ(postorder traversal)í•œ ê²°ê³¼ë¥¼ ì¶œë ¥í•˜ëŠ” í”„ë¡œê·¸ë¨ì„ ì‘ì„±í•˜ì‹œì˜¤.
  */
 
 import java.util.*;

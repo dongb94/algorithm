@@ -1,8 +1,8 @@
 package beakJoon_Level28_Sliding_Window;
 /* Q
 * 	********FAIL**********
-	N°³ÀÇ ¼ö A1, A2, ..., AN°ú LÀÌ ÁÖ¾îÁø´Ù.
-	Di = Ai-L+1 ~ Ai ÁßÀÇ ÃÖ¼Ú°ªÀÌ¶ó°í ÇÒ ¶§, D¿¡ ÀúÀåµÈ ¼ö¸¦ Ãâ·ÂÇÏ´Â ÇÁ·Î±×·¥À» ÀÛ¼ºÇÏ½Ã¿À. ÀÌ¶§, i ¡Â 0 ÀÎ Ai´Â ¹«½ÃÇÏ°í D¸¦ ±¸ÇØ¾ß ÇÑ´Ù.
+	Nê°œì˜ ìˆ˜ A1, A2, ..., ANê³¼ Lì´ ì£¼ì–´ì§„ë‹¤.
+	Di = Ai-L+1 ~ Ai ì¤‘ì˜ ìµœì†Ÿê°’ì´ë¼ê³  í•  ë•Œ, Dì— ì €ìž¥ëœ ìˆ˜ë¥¼ ì¶œë ¥í•˜ëŠ” í”„ë¡œê·¸ëž¨ì„ ìž‘ì„±í•˜ì‹œì˜¤. ì´ë•Œ, i â‰¤ 0 ì¸ AiëŠ” ë¬´ì‹œí•˜ê³  Dë¥¼ êµ¬í•´ì•¼ í•œë‹¤.
 */
 import java.io.*;
 import java.util.*;
