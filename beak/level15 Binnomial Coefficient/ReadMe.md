@@ -1,1 +1,1 @@
-# BeakJoon Level 15 Binomial Coefficient
+# BaekJoon Level 15 Binomial Coefficient

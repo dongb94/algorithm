@@ -1,4 +1,4 @@
-package beakJoon_Level2_ArithmeticOperation;
+package BaekJoon_Level2_ArithmeticOperation;
 
 import java.io.*;
 import java.util.*;

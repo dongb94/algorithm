@@ -1,4 +1,4 @@
-package beakJoon_Level15_BinomialCoefficient;
+package BaekJoon_Level15_BinomialCoefficient;
 
 /* Question
  * 자연수 N과 정수 K가 주어졌을 때 이항 계수 (n) 를 구하는 프로그램을 작성하시오.

@@ -1,4 +1,4 @@
-// beakjoon 11559
+// BaekJoon 11559
 // https://www.acmicpc.net/problem/11559
 import java.io.*;
 

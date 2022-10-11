@@ -1,4 +1,4 @@
-package beakJoon_Level5_Function;
+package BaekJoon_Level5_Function;
 
 ////Question
 /*

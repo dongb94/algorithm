@@ -1,1 +1,1 @@
-# BeakJoon Level 07 Math1
+# BaekJoon Level 07 Math1

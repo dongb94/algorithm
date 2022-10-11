@@ -1,4 +1,4 @@
-package beakJoon_Level13_Deque;
+package BaekJoon_Level13_Deque;
 
 /* Question
  * 정수를 저장하는 덱(Deque)를 구현한 다음, 입력으로 주어지는 명령을 처리하는 프로그램을 작성하시오.

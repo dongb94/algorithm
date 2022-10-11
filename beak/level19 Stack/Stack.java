@@ -1,4 +1,4 @@
-package beakJoon_Level11_Stack;
+package BaekJoon_Level11_Stack;
 
 /* Question
  * 

@@ -1,1 +1,1 @@
-# BeakJoon Level 10 PrimeNumber
+# BaekJoon Level 10 PrimeNumber

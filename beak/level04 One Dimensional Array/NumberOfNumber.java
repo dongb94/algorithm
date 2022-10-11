@@ -1,4 +1,4 @@
-package beakJoon_Level6_OneDimensionalArray;
+package BaekJoon_Level6_OneDimensionalArray;
 
 ////Question
 /*

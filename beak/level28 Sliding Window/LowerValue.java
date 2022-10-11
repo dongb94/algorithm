@@ -1,4 +1,4 @@
-package beakJoon_Level28_Sliding_Window;
+package BaekJoon_Level28_Sliding_Window;
 /* Q
 * 	********FAIL**********
 	N개의 수 A1, A2, ..., AN과 L이 주어진다.

@@ -1,4 +1,4 @@
-package beakJoon_Level25_Graph_Phase_Alignment;
+package BaekJoon_Level25_Graph_Phase_Alignment;
 /* Q
  * 올해 ACM-ICPC 대전 인터넷 예선에는 총 n개의 팀이 참가했다.
  *  팀은 1번부터 n번까지 번호가 매겨져 있다. 놀랍게도 올해 참가하는 팀은 작년에 참가했던 팀과 동일하다.

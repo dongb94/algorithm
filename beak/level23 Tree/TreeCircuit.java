@@ -1,4 +1,4 @@
-package beakJoon_Level23_Tree;
+package BaekJoon_Level23_Tree;
 /* Q
  * 이진 트리를 입력받아 전위 순회(preorder traversal), 중위 순회(inorder traversal), 후위 순회(postorder traversal)한 결과를 출력하는 프로그램을 작성하시오.
  */

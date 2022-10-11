@@ -1,1 +1,1 @@
-# BeakJoon Level 20 DivideAndConquer
+# BaekJoon Level 20 DivideAndConquer

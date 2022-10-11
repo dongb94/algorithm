@@ -1,5 +1,5 @@
 // https://www.acmicpc.net/problem/9498
-package beakJoon_Level4_If;
+package BaekJoon_Level4_If;
 
 ////Question
 ////���� ������ �Է¹޾� 90 ~ 100���� A, 80 ~ 89���� B, 70 ~ 79���� C, 60 ~ 69���� D, ������ ������ F�� ����ϴ� ���α׷��� �ۼ��Ͻÿ�.

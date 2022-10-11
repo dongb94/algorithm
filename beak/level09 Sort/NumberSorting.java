@@ -1,4 +1,4 @@
-package beakJoon_Level9_Sort;
+package BaekJoon_Level9_Sort;
 
 import java.io.*;
 import java.util.*;

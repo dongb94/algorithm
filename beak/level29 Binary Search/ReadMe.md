@@ -1,1 +1,1 @@
-# BeakJoon Level29 Binary Search
+# BaekJoon Level29 Binary Search

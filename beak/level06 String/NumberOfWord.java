@@ -1,4 +1,4 @@
-package beakJoon_Level7_String;
+package BaekJoon_Level7_String;
 
 ////Question
 /*
