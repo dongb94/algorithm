@@ -4,18 +4,18 @@
 
 int main(void)
 {
-    int number[6];
-    int need[] = {1,1,2,2,2,8};
+	int number[6];
+	int need[] = {1,1,2,2,2,8};
 
-    for(int i=0; i<6; i++)
-    {
-        scanf("%d", &number[i]);
-    }
-    
-    for(int i=0; i<6; i++)
-    {
-        printf("%d ", need[i]-number[i]);
-    }
+	for(int i=0; i<6; i++)
+	{
+		scanf("%d", &number[i]);
+	}
+	
+	for(int i=0; i<6; i++)
+	{
+		printf("%d ", need[i]-number[i]);
+	}
 
-    return 0;
+	return 0;
 }
