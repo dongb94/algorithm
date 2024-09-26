@@ -1,3 +1,4 @@
 #vscode setting
 .vscode/
 *.exe
+.idea/
